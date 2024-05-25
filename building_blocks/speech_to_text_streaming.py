@@ -58,13 +58,12 @@ async def get_transcript():
         options = LiveOptions(
             model="nova-2",
             punctuate=True,
-            language="en-US",
+            language="de",
             encoding="linear16",
             channels=1,
             sample_rate=16000,
             endpointing=True
         )
-
         await dg_connection.start(options)
 
         # Open a microphone stream on the default input device

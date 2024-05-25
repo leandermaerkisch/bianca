@@ -1,4 +1,5 @@
 # Bianca
+
 AI for medical doctors
 
 ## Installation
@@ -16,7 +17,6 @@ The files in building_blocks are the isolated components if you'd like to inspec
 Install portaudio on your system. On macOS, you can do this with the following command:
 
 `brew install portaudio`
-    
-Then, install the required Python packages: 
 
+Then, install the required Python packages:
 `uv pip install -r requirements.txt`
