@@ -9,3 +9,6 @@ pydantic==2.6.2
 requests==2.32.2
 langchain_openai==0.1.7
 elevenlabs==1.2.2
+python-dotenv==1.0.1
+crewai==0.30.11
+duckduckgo-search==6.1.7

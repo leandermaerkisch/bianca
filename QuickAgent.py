@@ -252,5 +252,4 @@ class ConversationManager:
 if __name__ == "__main__":
     manager = ConversationManager()
     asyncio.run(manager.main())
-    # tts = TextToSpeech()
-    # tts.speak("Hallo, einen wunderbaren Tag!", provider="elevenlabs")
+    
